@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  background-color: #000000;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+i {
+  color: #e3e3e3;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #393d3f;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiSelect-root {
+  color: #f2f2f2;
+}
+
+.MuiFormLabel-root.MuiInputLabel-root,
+.MuiFormLabel-root.MuiInputLabel-root.Mui-focused {
+  color: #eee;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+
+  overflow: auto;
+}
+
+.MuiFormLabel-root.MuiInputLabel-root {
+  color: rgba(255, 255, 255, 0.89);
+  font-size: 13px;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+.MuiSvgIcon-root.MuiSelect-icon {
+  color: #fff;
+}
+
+.MuiInputBase-input.MuiOutlinedInput-input {
+  color: #e3e3e3;
+  font-size: 13px;
+}
+
+.add-set {
+  cursor: pointer;
+  background-color: #131316;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  margin: 0 34px;
+  padding: 7pt;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.add-set:hover {
+  background-color: #000000;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  flex: 1;
+  padding: 10px;
+}
+
+.border-m {
+  border: 1px solid rgb(58, 58, 58);
+  border-bottom: none !important;
+}
+border-t {
+  border: 1px solid #3a3a3a;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  background-color: #18181b;
+  color: #e9e9e9;
+  margin-bottom: 8px;
+  padding: 8pt;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#deleteIcon {
+  color: #787878;
+}
+
+#deleteIcon:hover {
+  color: #000000;
+}
+
+.item p {
+  margin: 0;
+}
+
+.sub-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #18181b;
+  margin: 0px 16px;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.sub-item:hover {
+  background-color: #1f1f1f;
+}
+
+.sub-item p {
+  color: black;
+  margin: 0;
+}
+
+.placeholder {
+  background-color: #ccc;
+  opacity: 0.5;
+  border-radius: 4px;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 16.5px 9px !important;
+  font-size: 12px !important;
+}
+
+.css-1ka5eyc-MuiPaper-root-MuiMenu-paper-MuiPopover-paper {
+  background-color: #18181b !important;
+  color: #ccc !important;
+  font-size: 12px !important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 991px) {
+  .container-wrapper {
+    display: block;
+    flex-direction: row;
+    overflow: auto !important;
+  }
+  .w-m {
+    width: 100% !important;
+    margin-top: 15px !important;
+  }
+  .w-m2 {
+    width: 100% !important;
+  }
+  .flex-m {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+  }
+}
